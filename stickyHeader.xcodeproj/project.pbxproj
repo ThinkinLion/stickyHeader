@@ -14,6 +14,10 @@
 		C255B31A291B6EAF008D8A2B /* stickyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B319291B6EAF008D8A2B /* stickyHeaderTests.swift */; };
 		C255B324291B6EAF008D8A2B /* stickyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B323291B6EAF008D8A2B /* stickyHeaderUITests.swift */; };
 		C255B326291B6EAF008D8A2B /* stickyHeaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B325291B6EAF008D8A2B /* stickyHeaderUITestsLaunchTests.swift */; };
+		C255B340291C80B6008D8A2B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B33F291C80B6008D8A2B /* HomeView.swift */; };
+		C255B342291C867B008D8A2B /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B341291C867B008D8A2B /* CustomCorner.swift */; };
+		C255B344291C8787008D8A2B /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B343291C8787008D8A2B /* OffsetModifier.swift */; };
+		C255B346291CC398008D8A2B /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B345291CC398008D8A2B /* MessageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C255B31F291B6EAF008D8A2B /* stickyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickyHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C255B323291B6EAF008D8A2B /* stickyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickyHeaderUITests.swift; sourceTree = "<group>"; };
 		C255B325291B6EAF008D8A2B /* stickyHeaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickyHeaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C255B33F291C80B6008D8A2B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C255B341291C867B008D8A2B /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		C255B343291C8787008D8A2B /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		C255B345291CC398008D8A2B /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		C255B307291B6EAB008D8A2B /* stickyHeader */ = {
 			isa = PBXGroup;
 			children = (
+				C255B33E291C7FD3008D8A2B /* Model */,
+				C255B33D291C7FCA008D8A2B /* View */,
 				C255B308291B6EAB008D8A2B /* stickyHeaderApp.swift */,
 				C255B30A291B6EAB008D8A2B /* ContentView.swift */,
 				C255B30C291B6EAE008D8A2B /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				C255B325291B6EAF008D8A2B /* stickyHeaderUITestsLaunchTests.swift */,
 			);
 			path = stickyHeaderUITests;
+			sourceTree = "<group>";
+		};
+		C255B33D291C7FCA008D8A2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C255B33F291C80B6008D8A2B /* HomeView.swift */,
+				C255B341291C867B008D8A2B /* CustomCorner.swift */,
+				C255B343291C8787008D8A2B /* OffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C255B33E291C7FD3008D8A2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C255B345291CC398008D8A2B /* MessageModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C255B340291C80B6008D8A2B /* HomeView.swift in Sources */,
+				C255B346291CC398008D8A2B /* MessageModel.swift in Sources */,
+				C255B342291C867B008D8A2B /* CustomCorner.swift in Sources */,
+				C255B344291C8787008D8A2B /* OffsetModifier.swift in Sources */,
 				C255B30B291B6EAB008D8A2B /* ContentView.swift in Sources */,
 				C255B309291B6EAB008D8A2B /* stickyHeaderApp.swift in Sources */,
 			);
