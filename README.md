@@ -1,4 +1,4 @@
-# stickyHeader
+# Sticky Header
 collapsable animated sticky header using SwiftUI
 
 
